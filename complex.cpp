@@ -64,5 +64,5 @@ Complex Complex::square() const
 //Outputs complex in the form "a + bi"
 void Complex::output(std::ostream &out) const
 {
-  out << real << ' + ' << imaginary << 'i' << '\n';
+  out << real << " + " << imaginary << 'i' << '\n';
 }
